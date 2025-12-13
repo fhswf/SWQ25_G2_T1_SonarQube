@@ -24,4 +24,6 @@ def noncompliant():
 
 
 def test_values(a, b):
-    assert a and b
+    assert a is not None
+    assert b is not None
+
