@@ -1,7 +1,10 @@
 import random
 
 def is_positive(number):
-    return True
+    if number > 0:
+        return True
+    else:
+        return False
 
 def main():
     value = int(input("Enter a number: "))
