@@ -17,8 +17,6 @@ print("Result:", result)
 #adding comment to trigger commit
 
 
-name = name
-
 import tempfile
 
 tmp_file1 = tempfile.NamedTemporaryFile(delete=False)
