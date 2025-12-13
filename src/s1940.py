@@ -19,20 +19,28 @@ if __name__ == "__main__":
 
 def fun(a):
   i = 10
-  return i + a       # Noncompliant
+  value = i + a
+  i += 1
+  return value      # Noncompliant
             
 
 
 def fun(b):
   i = 10
-  return i + b       # Noncompliant
+  value = i + b
+  i += 1
+  return value      # Noncompliant
              
 
 def fun(c):
   i = 10
-  return i + c       # Noncompliant
+  value = i + c
+  i += 1
+  return value      # Noncompliant
           
 def fun(d):
   i = 10
-  return i + d      # Noncompliant
+  value = i + d
+  i += 1
+  return value     # Noncompliant
               
