@@ -22,25 +22,5 @@ def fun(a):
   value = i + a
   i += 1
   return value      # Noncompliant
-            
 
-
-def fun(b):
-  i = 10
-  value = i + b
-  i += 1
-  return value      # Noncompliant
-             
-
-def fun(c):
-  i = 10
-  value = i + c
-  i += 1
-  return value      # Noncompliant
-          
-def fun(d):
-  i = 10
-  value = i + d
-  i += 1
-  return value     # Noncompliant
               
