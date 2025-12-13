@@ -25,6 +25,5 @@ tmp_file2 = tempfile.NamedTemporaryFile()
 
 
 def fpn(a):
-  j = 10
+  i = 10
   return i + a       # Noncompliant
-  j += 1             # this is never executed
