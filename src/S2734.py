@@ -15,6 +15,6 @@ from typing import List
 def search_first_number_without_break(elements: List[str]):
     for elt in elements:
         if elt.isnumeric():
-            return elt
+            break
     else:  # Noncompliant. This will be executed every time
         raise ValueError("List does not contain any number")
